@@ -1,0 +1,16 @@
+{
+    "name": "hugo/mon-package",
+    "description": "package a hugo ne pas toucher",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Hugo\\MonPackage\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "hugo"
+        }
+    ],
+    "require": {}
+}
